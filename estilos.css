@@ -1,0 +1,36 @@
+<style>
+
+	ul {
+		margin: 0 auto;
+		text-align: left;
+	}
+	.fondo{
+		background-color: #f6e3c2;
+	}
+
+	li {
+		color: black;
+	}
+	h1{ 
+		color: black;
+		border-style: solid;
+		border-radius: 5px;
+		border-color: black;
+		text-align: center;
+	}
+	.box {
+	padding: 1px;
+	margin: 0 auto;
+	width: 0 auto;
+	font-family: verdana;
+	border-style: dashed;
+	border-color: black;
+	border-radius: 5px;
+	display: inline-block;
+	}
+	#boton {
+	padding: 1px;
+	margin: 0 auto;
+	width: 0 auto;
+	}
+</style>
