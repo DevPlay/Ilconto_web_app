@@ -7,16 +7,19 @@
 	.fondo{
 		background-color: #f6e3c2;
 	}
-
 	li {
-		color: black;
+		color: red;
+
 	}
 	h1{ 
 		color: black;
 		border-style: solid;
 		border-radius: 5px;
 		border-color: black;
+		height: 48px;
+		font-weight: bold;
 		text-align: center;
+		background: url('mozo.png') no-repeat;
 	}
 	.box {
 	padding: 1px;
@@ -27,6 +30,7 @@
 	border-color: black;
 	border-radius: 5px;
 	display: inline-block;
+
 	}
 	#boton {
 	padding: 1px;
