@@ -1,14 +1,12 @@
 <style>
-
 	ul {
-		margin: 0 auto;
-		text-align: left;
+		list-style: none;
 	}
 	.fondo{
 		background-color: #f6e3c2;
 	}
 	li {
-		color: red;
+		display: inline-block;
 
 	}
 	h1{ 
@@ -19,22 +17,17 @@
 		height: 48px;
 		font-weight: bold;
 		text-align: center;
-		background: url('mozo.png') no-repeat;
+		background: url('mozo.png') no-repeat;	
 	}
-	.box {
-	padding: 1px;
-	margin: 0 auto;
-	width: 0 auto;
-	font-family: verdana;
-	border-style: dashed;
-	border-color: black;
-	border-radius: 5px;
-	display: inline-block;
+	.box div{
+		width: 300px;
+		margin: 20px;
+		border-color: 1px solid black;
+		text-align: left;
+	}
+	.posts {
+		width: 1130px;
+		margin: auto;
+	}
 
-	}
-	#boton {
-	padding: 1px;
-	margin: 0 auto;
-	width: 0 auto;
-	}
 </style>
