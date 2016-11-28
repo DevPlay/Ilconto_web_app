@@ -1,12 +1,38 @@
-<style>
+
+	.encabezado{
+    	position: relative;
+    	background-color: #00a65e;	   	
+    }
+footer{
+    	position: relative;
+		color: black;
+		font-weight: bold;
+		text-align: center;
+		background-color: #00a65e;
+		font-family: verdana, arial;
+		letter-spacing: 8px;
+		text-shadow: 1px 1px 1px #b2b2b2;
+	}
+    
+
+/*#Le damos estilo al fondo de la web*/
+
+	body{
+		position: relative;
+		z-index: -998;
+		background-image: url('img/home1.jpg');
+		background-attachment: fixed;			
+	}	
 	ul {
 		list-style: none;
+		z-index: 111;
 	}
 	.fondo{
 		background-color: #f6e3c2;
 	}
 	li {
 		display: inline-block;
+		padding: 10px;
 
 	}
 	h1{ 
@@ -20,14 +46,78 @@
 		background: url('mozo.png') no-repeat;	
 	}
 	.box div{
-		width: 300px;
-		margin: 20px;
-		border-color: 1px solid black;
-		text-align: left;
+		position: relative;
+		width: 	104px;
+		height: 126px;
+		text-align: center;
+		color: black;
+		z-index: 1;
+		background-image: url('img/stickyconiman.png');
+		background-repeat: no-repeat;
+		background-position: center 0;
+		/*background-position: cover;*/
 	}
 	.posts {
-		width: 1130px;
 		margin: auto;
+		height: 350px;
+
 	}
 
-</style>
+	/*#Le damos estilo a la lista*/
+
+	h2{ 
+		position: absolute;
+		color: black;
+		font-weight: bold;
+		font-family: verdana, arial;
+		letter-spacing: 8px;
+		font-variant-position: 15px;
+		text-shadow: 1px 1px 1px #b2b2b2;
+		top:60px;
+    	right: 0px;   				
+	}
+
+	#caja {
+		position: absolute;
+		color: black;
+		font-weight: bold;
+		font-family: verdana, arial;
+		letter-spacing: 8px;
+		font-variant-position: 15px;
+		text-shadow: 1px 1px 1px #b2b2b2;
+		top:60px;
+    	right: 0px;   		
+	}
+
+   .pared {
+    	position: relative;
+    	width: 100%;
+    	background-color: red;
+    	background-position:center;
+    	z-index: -999;
+    	   	
+    }
+
+    .fecha{
+    	position: absolute;
+    	top: 70px;
+    	left: 88% ;
+      	color: white; 
+      	background-color: black;
+    	font-family: verdana, arial;
+    	font-size: 20px;
+ 		text-align: center;
+    
+    	background-image:url('img/reloj2.png');
+    	background-position:center;
+		background-repeat: no-repeat;
+    	width: 100px;
+    	height: auto;
+    	display: block;
+    	border-radius: 8px;
+    	box-shadow: 5px 5px 0px #7f7f7f;*/
+    	padding: 10px;
+    	border: 5px solid #ff9c44;
+
+     }
+

@@ -11,16 +11,70 @@
 		<script src="funciones.js"></script>
 
 		<link rel="stylesheet" type="text/css" href="estilos.css" media="screen"/>
-</head>
-	<body class="fondo">
 
-		<h1>Sistema de gestión de restaurantes</h1>
+		
+</head>
+	<body>
+		
+		<!-- Creo clase separadores para el titulo de webapp-->
+
+		<hr size="5px" color="#00a65e">
+		<hr size="10px" color="#00a65e">
+		<hr size="15px" color="#00a65e">
+
+	<!-- Creo clase encabezado para poner manejar el titulo de webapp-->
+		
+		<div class="encabezado"><img id="img" src="img/Ilconto_mng.png"><h2 style="text-align:right">Sistema de gestión de locales</h2> </div>
+
+	<!-- Creo clase pared para poner imagen de fondo-->
+		
+		<div class="pared"><!--<img id="img" src="img/acero6.jpg">--></div>	
+
+
+	<!--Agrego los datos del dia y la hora-->	
+
+		<div class="fecha">
+		
+		<script type="text/javascript">
+		var date = new Date();
+		var d  = date.getDate();
+		var day = (d < 10) ? '0' + d : d;
+		var m = date.getMonth() + 1;
+		var month = (m < 10) ? '0' + m : m;
+		var yy = date.getYear();
+		var year = (yy < 1000) ? yy + 1900 : yy;
+			document.write(day + " " + month + " " + (year-2000));
+		</script>
+
+		<!--<hr size="1px" color="#00a65e">-->
+
+		<script type="text/javascript">
+		function startTime(){
+		today=new Date();
+		h=today.getHours();
+		m=today.getMinutes();
+		//s=today.getSeconds();
+		m=checkTime(m);
+		//s=checkTime(s);
+			document.getElementById('reloj').innerHTML=h+":"+m;
+		t=setTimeout('startTime()',500);}
+		function checkTime(i)
+			{if (i<10) {i="0" + i;}return i;}
+				window.onload=function(){startTime();}
+		</script>
+
+
+		<div id="reloj" style="font-size:20px;"></div>
+
+		</div>
 
  		<div class='posts'>
 			<ul>
 			
 			</ul>
 		</div>
+
+		<footer>"2016, Buenos Aires. Argentina - Designed by Excelsior-Inc."</footer>
 
 		 	</body>
 </html>
