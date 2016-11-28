@@ -4,7 +4,9 @@
     	background-color: #00a65e;	   	
     }
 footer{
-    	position: relative;
+    	position: fixed;
+		width: 100%;
+    	bottom: 0;
 		color: black;
 		font-weight: bold;
 		text-align: center;
