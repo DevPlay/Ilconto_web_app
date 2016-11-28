@@ -92,7 +92,7 @@ footer{
 	}
 
    .pared {
-    	position: relative;
+    	position: absolute;
     	width: 100%;
     	background-color: red;
     	background-position:center;
