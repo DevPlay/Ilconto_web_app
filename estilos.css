@@ -1,127 +1,108 @@
+/*Le damos estilo al encabezado de la web*/
 
-	.encabezado{
-    	position: relative;
-    	background-color: #00a65e;
-    	width: 100%;	   	
-    }
+.encabezado{
+    position: relative;
+    background-color: #00a65e;
+    width: 100%;	   	
+}
+
+h2{ 
+	position: absolute;
+	color: black;
+	font-weight: bold;
+	font-family: verdana, arial;
+	letter-spacing: 8px;
+	font-variant-position: 5px;
+	text-shadow: 1px 1px 1px #b2b2b2;
+	top:60px;
+    right: 0px;   				
+}
+
+/*Le damos estilo al pie de pagina de la web*/
 footer{
-    	position: fixed;
-		width: 100%;
-    	bottom: 0;
-		color: black;
-		font-weight: bold;
-		text-align: center;
-		background-color: #00a65e;
-		font-family: verdana, arial;
-		letter-spacing: 8px;
-		text-shadow: 1px 1px 1px #b2b2b2;
-	}
-    
+    position: fixed;
+	width: 100%;
+    height: 20px;
+    padding: 15px;
+    bottom: 0;
+	color: black;
+	/*font-weight: bold;*/
+	text-align: center;
+	background-color: #00a65e;
+	font-family: verdana, arial;
+	/*letter-spacing: 8px;
+	text-shadow: 1px 1px 1px #b2b2b2;*/
+}
 
-/*#Le damos estilo al fondo de la web*/
+/*Le damos estilo al fondo de la web*/
+.fondo{
+	width: 100%;
+	background-color: #f6e3c2;
+}
 
-	body{
-		position: relative;
-		z-index: -998;
-		background-image: url('img/home1.jpg');
-		background-attachment: fixed;			
-	}	
-	ul {
-		list-style: none;
-		z-index: 111;
-	}
-	.fondo{
-		width: 100%;
-		background-color: #f6e3c2;
-	}
-	li {
-		display: inline-block;
-		padding: 10px;
+.pared {
+    position: absolute;
+    width: 100%;
+    /*background-color: red;*/
+    background-position:center;
+    z-index: -999;
+}
 
-	}
-	h1{ 
-		color: black;
-		border-style: solid;
-		border-radius: 5px;
-		border-color: black;
-		height: 48px;
-		font-weight: bold;
-		text-align: center;
-		background: url('mozo.png') no-repeat;	
-	}
-	.box div{
-		position: relative;
-		width: 	104px;
-		height: 126px;
-		text-align: center;
-		color: black;
-		z-index: 1;
-		background-image: url('img/stickyconiman.png');
-		background-repeat: no-repeat;
-		background-position: center 0;
-		/*background-position: cover;*/
-	}
-	.posts {
-		margin: auto;
-		height: 350px;
+body{
+	position: relative;
+	z-index: -998;
+	background-image: url('img/home1.jpg');
+	background-attachment: fixed;			
+}
 
-	}
+/*Le damos estilo a la lista*/
+ul {
+	list-style: none;
+	z-index: 111;
+}
 
-	/*#Le damos estilo a la lista*/
+li {
+	display: inline-block;
+	padding: 10px;
+}
 
-	h2{ 
-		position: absolute;
-		color: black;
-		font-weight: bold;
-		font-family: verdana, arial;
-		letter-spacing: 8px;
-		font-variant-position: 15px;
-		text-shadow: 1px 1px 1px #b2b2b2;
-		top:60px;
-    	right: 0px;   				
-	}
+/*Le damos estilo a las stickys de llamadas*/
+.box /*div*/{
+	position: relative;
+	width: 	104px;
+	height: 126px;
+	text-align: center;
+	color: black;
+	z-index: 1;
+	background-image: url('img/stickyconiman.png');
+	background-repeat: no-repeat;
+	background-position: center 0;
+	/*background-position: cover;*/
+}
 
-	#caja {
-		position: absolute;
-		color: black;
-		font-weight: bold;
-		font-family: verdana, arial;
-		letter-spacing: 8px;
-		font-variant-position: 15px;
-		text-shadow: 1px 1px 1px #b2b2b2;
-		top:60px;
-    	right: 0px;   		
-	}
+.posts {
+	margin: auto;
+	height: 350px;
+}
 
-   .pared {
-    	position: absolute;
-    	width: 100%;
-    	background-color: red;
-    	background-position:center;
-    	z-index: -999;
-    	   	
-    }
-
-    .fecha{
-    	position: absolute;
-    	top: 70px;
-    	left: 88% ;
-      	color: white; 
-      	background-color: black;
-    	font-family: verdana, arial;
-    	font-size: 20px;
- 		text-align: center;
-    
-    	background-image:url('img/reloj2.png');
-    	background-position:center;
-		background-repeat: no-repeat;
-    	width: 100px;
-    	height: auto;
-    	display: block;
-    	border-radius: 8px;
-    	box-shadow: 5px 5px 0px #7f7f7f;*/
-    	padding: 10px;
-    	border: 5px solid #ff9c44;
-
-     }
-
+/*Le damos estilo al div del reloj*/
+.fecha{
+    position: absolute;
+    top: 70px;
+    left: 88% ;
+    color: white; 
+    background-color: black;
+    font-family: verdana, arial;
+    font-size: 20px;
+ 	text-align: center;
+	background-image:url('img/reloj2.png');
+    background-position:center;
+	background-repeat: no-repeat;
+    width: 100px;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 5px 5px 0px #7f7f7f;*/
+    padding: 10px;
+    border: 5px solid #ff9c44;
+}
